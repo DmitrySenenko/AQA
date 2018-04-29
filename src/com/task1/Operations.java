@@ -17,7 +17,7 @@ public class Operations {
             } else {
                 int maxline = sc;
                 int polmaxline = sc / 2;
-                System.out.println("Введите ващи числа, каждое последующейй через Enter!");
+                System.out.println("Введите ващи числа, каждое последующее через Enter!");
                 for (int i = 0; i < numb.length; i++) {
                     numb[i] = scanner.nextInt();
                 }

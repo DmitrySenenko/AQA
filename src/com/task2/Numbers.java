@@ -15,7 +15,7 @@ public class Numbers {
             int max = 0;
 
 
-            System.out.println("Введите ващи числа, каждое последующейй через Enter!");
+            System.out.println("Введите ващи числа, каждое последующее через Enter!");
             for (int i = 0; i < numb.length; i++) {
                 numb[i] = scanner.nextInt();
             }
@@ -47,7 +47,15 @@ public class Numbers {
             for (int i = 0; i < numb.length; i++) {
                 //todo узнать среднее значение в массиве
             }
-            System.out.println("Среднее кол-во символов массива " + max );
+            System.out.println("Среднее кол-во символов массива " + max);
+
+            for (int i = numb.length - 1; i >= 0; i--) {
+                System.out.print(numb[i] + " ");
+            }
+
+            for (int i = numb.length - 1; i >= 0; i--) {
+                System.out.println(numb[i] + " ");
+            }
 
 
             scanner.close();
