@@ -12,26 +12,28 @@ public class Numbers {
             int sc = scanner.nextInt();
             int[] numb = new int[sc];
 
+            int max = 0;
+
 
             System.out.println("Введите ващи числа, каждое последующейй через Enter!");
             for (int i = 0; i < numb.length; i++) {
                 numb[i] = scanner.nextInt();
             }
 
-                for (int i = numb.length - 1; i >= 0; i--) {
-                    for (int j = 0; j < i; j++) {
-                        if (numb[j] > numb[j + 1]) {
-                            int tmp = numb[j];
-                            numb[j] = numb[j + 1];
-                            numb[j + 1] = tmp;
+            for (int i = numb.length - 1; i >= 0; i--) {
+                for (int j = 0; j < i; j++) {
+                    if (numb[j] > numb[j + 1]) {
+                        int tmp = numb[j];
+                        numb[j] = numb[j + 1];
+                        numb[j + 1] = tmp;
 
-                        }
                     }
                 }
+            }
             System.out.println("Самое короткое число " + numb[0]);
             System.out.println("Его длинна " + String.valueOf(Math.abs(numb[0])).length());
-            System.out.println("Самое длинное число " + numb[numb.length-1]);
-            System.out.println("Его длинна " + String.valueOf(Math.abs(numb[numb.length-1])).length());
+            System.out.println("Самое длинное число " + numb[numb.length - 1]);
+            System.out.println("Его длинна " + String.valueOf(Math.abs(numb[numb.length - 1])).length());
 
             System.out.println("Массив по порядку: " + Arrays.toString(numb));
 
@@ -41,14 +43,15 @@ public class Numbers {
                 numb[numb.length - 1 - i] = tmp;
             }
             System.out.println("Обратный порядок массива: " + Arrays.toString(numb));
-            System.out.println("Обратный порядок массива: " + Arrays.toString(numb));
 
-
-
+            for (int i = 0; i < numb.length; i++) {
+                //todo узнать среднее значение в массиве
+            }
+            System.out.println("Среднее кол-во символов массива " + max );
 
 
             scanner.close();
-        }catch (InputMismatchException err) {
+        } catch (InputMismatchException err) {
             System.out.println("Вы ввели буквы, а нужно цифры");
         }
     }

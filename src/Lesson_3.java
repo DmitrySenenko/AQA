@@ -79,7 +79,7 @@ public class Lesson_3 {
         System.arraycopy(arr0, 1 , arr1,2,3);  //откуда // c какого элемента // куда // ложить в // сколько элементов
         System.out.println("arr1: " + Arrays.toString(arr1));
 
-        //todo регистрация на гитхабе
+        // регистрация на гитхабе
 
         System.out.println("hi");
 

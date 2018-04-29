@@ -8,7 +8,7 @@ public class Lesson_2 {
         //System.out.println(.3f + .4f);
         //System.out.println((float)(.3 + .4));
 
-        // todo объяснить почему System.out.println (.2 + .1)
+        // объяснить почему System.out.println (.2 + .1)
 
         //System.out.println(12.0 / 0); // 12 / 0.0    // -0.0 = 0.0
         //System.out.println(Double.NEGATIVE_INFINITY);
@@ -41,7 +41,7 @@ public class Lesson_2 {
         //String b = new String("hi");
         //System.out.println(a==b);
         //System.out.println(a.equals(b)); //сравниваем //интерфейс, класс, массив
-        //System.out.println("4 / 2 = " + 4 / 2 == "4 / 2 = 2"); //todo почему сработали ==
+        //System.out.println("4 / 2 = " + 4 / 2 == "4 / 2 = 2"); // почему сработали ==
 
 //        byte b1 = 50;
 //        byte b2 = -99;
@@ -158,7 +158,7 @@ public class Lesson_2 {
         System.out.println(Integer.toHexString(267));
         System.out.println(Integer.toOctalString(267));*/
 
-        //todo Task1 (не делать полусумме)
+        // Task1 (не делать полусумме)
 
 
         //int[][] a = {{1,1,1,1,1,1,1},{2,2,2,2},{1,2,3,4,5,6,7,8,9,0}};
