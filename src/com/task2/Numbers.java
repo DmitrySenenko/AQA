@@ -3,6 +3,7 @@ package com.task2;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.lang.String;
 
 public class Numbers {
     public static void main(String[] args) {
@@ -22,6 +23,23 @@ public class Numbers {
 
             for (int i = numb.length - 1; i >= 0; i--) {
                 for (int j = 0; j < i; j++) {
+                    String len = Integer.toString(numb[j]);
+                    String len1 = Integer.toString(numb[j+1]);
+                    if (len.length() > len1.length()) {
+                        int tmp = numb[j];
+                        numb[j] = numb[j+1];
+                        numb[j+1] = tmp;
+                    }
+                }
+            }
+            System.out.println("Массив по порядку длинн: " + Arrays.toString(numb));
+            System.out.println("Самое короткое число " + numb[0]);
+            System.out.println("Его длинна " + String.valueOf(Math.abs(numb[0])).length());
+            System.out.println("Самое длинное число " + numb[numb.length - 1]);
+            System.out.println("Его длинна " + String.valueOf(Math.abs(numb[numb.length - 1])).length());
+
+            for (int i = numb.length - 1; i >= 0; i--) {
+                for (int j = 0; j < i; j++) {
                     if (numb[j] > numb[j + 1]) {
                         int tmp = numb[j];
                         numb[j] = numb[j + 1];
@@ -30,10 +48,7 @@ public class Numbers {
                     }
                 }
             }
-            System.out.println("Самое короткое число " + numb[0]);
-            System.out.println("Его длинна " + String.valueOf(Math.abs(numb[0])).length());
-            System.out.println("Самое длинное число " + numb[numb.length - 1]);
-            System.out.println("Его длинна " + String.valueOf(Math.abs(numb[numb.length - 1])).length());
+
 
             System.out.println("Массив по порядку: " + Arrays.toString(numb));
 
