@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f20039-798c-4924-a481-ff0e2b0c310e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/AQA/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/AQA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/Lesson_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/Lesson_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/Lesson_3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/com/task1/Console.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/com/task1/Name.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/com/task1/Numbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/com/task1/Operations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/com/task1/Password.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/out/production/AQA/com/task1/Sum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/Lesson_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/Lesson_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/Lesson_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task1/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task1/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task1/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task1/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task1/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task1/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA/src/com/task2/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AQA1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/task2/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/task2/Numbers.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +26,8 @@
       <file leaf-file-name="Numbers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/task2/Numbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="170" column="80" selection-start-line="170" selection-start-column="80" selection-end-line="170" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -88,8 +64,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,122 +102,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/AQA/com/task1/Operations.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Lesson_2.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Lesson_3.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/task1/Operations.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/task2/Numbers.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/untitled104/com/company/Main.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,25 +179,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ccc95231-d9d0-4113-8d1c-7479c6814d0c" name="Default" comment="" />
+      <changelist id="d4f20039-798c-4924-a481-ff0e2b0c310e" name="Default" comment="" />
       <created>1525019299202</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525019299202</updated>
       <workItem from="1525019304977" duration="119000" />
-      <workItem from="1525450104619" duration="4150000" />
+      <workItem from="1525450104619" duration="4193000" />
+      <workItem from="1525460297068" duration="318000" />
     </task>
-    <task id="LOCAL-00001" summary="Note">
-      <created>1525019398994</created>
+    <task id="LOCAL-00001" summary="note">
+      <created>1525454291193</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1525019398994</updated>
+      <updated>1525454291193</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4054000" />
+    <option name="totallyTimeSpent" value="4415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -345,7 +207,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -357,7 +219,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -379,6 +241,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="note" />
+    <option name="LAST_COMMIT_MESSAGE" value="note" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -392,13 +258,27 @@
           <url>file://$PROJECT_DIR$/src/com/task2/Numbers.java</url>
           <line>138</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Lesson_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/task2/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -415,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/task2/Numbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="170" column="80" selection-start-line="170" selection-start-column="80" selection-end-line="170" selection-end-column="80" />
         </state>
       </provider>
     </entry>

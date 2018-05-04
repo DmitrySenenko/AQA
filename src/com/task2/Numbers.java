@@ -157,7 +157,7 @@ public class Numbers {
                     int n2 = numb[i] / 10 % 10;
                     int n3 = numb[i] / 100 % 10;
                     int n4 = numb[i] / 1000 % 10;
-                    if (n1 == n2 + 1 && n2 == n3 + 1 && n3 == n3 + 1) {
+                    if (n1 == n2 + 1 && n2 == n3 + 1 && n3 == n4 + 1) {
                         System.out.println("Цифры идут по возрастанию в этом числе:  " + " " + numb[i]);
                         break;
                     }
