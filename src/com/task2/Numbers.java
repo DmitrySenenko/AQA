@@ -13,7 +13,7 @@ public class Numbers {
             int sc = scanner.nextInt();
             int[] numb = new int[sc];
 
-            int sum = 0;
+            int sum = 0, chet = 0, nechet = 0, obsh = 0;
 
 
             System.out.println("Введите ващи числа, каждое последующее через Enter(");
@@ -51,6 +51,7 @@ public class Numbers {
 
 
             System.out.println("Массив по порядку: " + Arrays.toString(numb));
+
 
             for (int i = 0; i < numb.length / 2; i++) {
                 int tmp = numb[i];
@@ -119,10 +120,120 @@ public class Numbers {
                         System.out.println("Минимальное различие в числе:  " + " " + numb[i]);
                         break;
                     }
+                } else if (numb[i] >= 10000 && numb[i] < 99999 | numb[i] <= -10000 && numb[i] > -99999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    int n5 = numb[i] / 10000 % 10;
+                    int n6 = numb[i] / 100000 % 10;
+                    if (n2 == n1 + 1 && n3 == n2 + 1 && n4 == n3 + 1 && n5 == n4 + 1 && n6 == n5 + 1) {
+                        System.out.println("Минимальное различие в числе:  " + " " + numb[i]);
+                        break;
+                    }
 
 
                 }
-            }for (int i = 0; i < numb.length; i++) { //Полная не схожесть
+
+            }
+            for (int i = 0; i < numb.length; i++) { //идут по возрастанию
+                if (numb[i] >= 10 && numb[i] < 99 | numb[i] <= -10 && numb[i] > -99) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    if (n1 == n2 + 1) {
+                        System.out.println("Цифры идут по возрастанию в этом числе: " + " " + numb[i]);
+                        break;
+                    }
+                } else if (numb[i] >= 100 && numb[i] < 100 | numb[i] <= -100 && numb[i] > -999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    if (n1 == n2 + 1 && n2 == n3 + 1) {
+                        System.out.println("Цифры идут по возрастанию в этом числе:  " + " " + numb[i]);
+                        break;
+                    }
+                } else if (numb[i] >= 1000 && numb[i] < 9999 | numb[i] <= -1000 && numb[i] > -9999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    if (n1 == n2 + 1 && n2 == n3 + 1 && n3 == n3 + 1) {
+                        System.out.println("Цифры идут по возрастанию в этом числе:  " + " " + numb[i]);
+                        break;
+                    }
+
+                } else if (numb[i] >= 10000 && numb[i] < 99999 | numb[i] <= -10000 && numb[i] > -99999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    int n5 = numb[i] / 10000 % 10;
+                    if (n1 == n2 + 1 && n2 == n3 + 1 && n3 == n4 + 1 && n4 == n5 + 1) {
+                        System.out.println("Цифры идут по возрастанию в этом числе:  " + " " + numb[i]);
+                        break;
+                    }
+                } else if (numb[i] >= 10000 && numb[i] < 99999 | numb[i] <= -10000 && numb[i] > -99999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    int n5 = numb[i] / 10000 % 10;
+                    int n6 = numb[i] / 100000 % 10;
+                    if (n1 == n2 + 1 && n2 == n3 + 1 && n3 == n4 + 1 && n4 == n5 + 1 && n5 == n6 + 1) {
+                        System.out.println("Цифры идут по возрастанию в этом числе:  " + " " + numb[i]);
+                        break;
+                    }
+
+
+                }
+
+            }
+            for (int i = 0; i < numb.length; i++) { //четность
+                if (numb[i] >= 10 && numb[i] < 99 | numb[i] <= -10 && numb[i] > -99) {
+                    obsh++;
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    if (n1 % 2 == 0 && n2 % 2 == 0) {
+                        chet++;
+                    } else {
+                        nechet++;
+                    }
+                } else if (numb[i] >= 1000 && numb[i] < 9999 | numb[i] <= -1000 && numb[i] > -9999) {
+                    obsh++;
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    if (n1 % 2 == 0 && n2 % 2 == 0 && n3 % 2 == 0 && n4 % 2 == 0) {
+                        chet++;
+                    } else {
+                        nechet++;
+                    }
+
+                } else if (numb[i] >= 100000 && numb[i] < 999999 | numb[i] <= -100000 && numb[i] > -999999) {
+                    obsh++;
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    int n5 = numb[i] / 10000 % 10;
+                    int n6 = numb[i] / 100000 % 10;
+
+                    if (n1 % 2 == 0 && n2 % 2 == 0 && n3 % 2 == 0 && n4 % 2 == 0 && n5 % 2 == 0 && n6 % 2 == 0) {
+                        chet++;
+                    } else {
+                        nechet++;
+                    }
+
+                }
+
+            }
+            System.out.println("Выборка в четных числах. Всего четных чисел: " + obsh);
+            System.out.println("Выборка в четных числах. Из них с четными внутри " + chet);
+            System.out.println("Выборка в четных числах. Из них с нечетными внутри " + nechet);
+
+
+            for (int i = 0; i < numb.length; i++) { //Полная не схожесть
                 if (numb[i] >= 10 && numb[i] < 99 | numb[i] <= -10 && numb[i] > -99) {
                     int n1 = numb[i] % 10;
                     int n2 = numb[i] / 10 % 10;
@@ -160,6 +271,19 @@ public class Numbers {
                     }
 
 
+                } else if (numb[i] >= 10000 && numb[i] < 99999 | numb[i] <= -10000 && numb[i] > -99999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    int n5 = numb[i] / 10000 % 10;
+                    int n6 = numb[i] / 100000 % 10;
+                    if (n1 != n2 && n1 != n3 && n1 != n4 && n1 != n5 && n1 != n6 && n2 != n3 && n2 != n4 && n2 != n5 && n2 != n6 && n3 != n4 && n3 != n5 && n3 != n6 && n4 != n5 && n4 != n6 && n5 != n6) {
+                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                        break;
+                    }
+
+
                 }
             }
 
@@ -178,11 +302,20 @@ public class Numbers {
 
 
             scanner.close();
-        } catch (InputMismatchException err) {
+        } catch (
+                InputMismatchException err)
+
+        {
             System.out.println("Вы ввели буквы, а нужно цифры");
-        } catch (NegativeArraySizeException err) {
+        } catch (
+                NegativeArraySizeException err)
+
+        {
             System.out.println("Массив не может иметь отрицательную длинну");
-        } catch (ArrayIndexOutOfBoundsException err) {
+        } catch (
+                ArrayIndexOutOfBoundsException err)
+
+        {
             System.out.println("Массив не может иметь нулевую длину");
         }
     }
