@@ -83,44 +83,82 @@ public class Numbers {
                 }
             }
 
-            for (int i = 0; i < numb.length; i++) {
-                for (numb[i] >= 10 || numb[i] < 99 || numb[i] <= -10 || numb[i] > -99) {
+            for (int i = 0; i < numb.length; i++) { //Минимально
+                if (numb[i] >= 10 && numb[i] < 99 | numb[i] <= -10 && numb[i] > -99) {
                     int n1 = numb[i] % 10;
                     int n2 = numb[i] / 10 % 10;
                     if (n1 != n2) {
-                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                        System.out.println("Минимальное различие в числе: " + " " + numb[i]);
+                        break;
                     }
-                    break;
-                }for (numb[i] >= 100 && numb[i] < 100 && numb[i] <= -100 && numb[i] > -999) {
+                } else if (numb[i] >= 100 && numb[i] < 100 | numb[i] <= -100 && numb[i] > -999) {
                     int n1 = numb[i] % 10;
                     int n2 = numb[i] / 10 % 10;
                     int n3 = numb[i] / 100 % 10;
-                    if (n1 != n2 && n1 != n3 && n2 != n3) {
-                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
-
+                    if (n1 != n2 | n1 != n3 | n2 != n3) {
+                        System.out.println("Минимальное различие в числе:  " + " " + numb[i]);
+                        break;
                     }
-                    break;
-                } for (numb[i] >= 1000 && numb[i] < 9999 && numb[i] <= -1000 && numb[i] > -9999) {
+                } else if (numb[i] >= 1000 && numb[i] < 9999 | numb[i] <= -1000 && numb[i] > -9999) {
                     int n1 = numb[i] % 10;
                     int n2 = numb[i] / 10 % 10;
                     int n3 = numb[i] / 100 % 10;
                     int n4 = numb[i] / 1000 % 10;
-                    if (n1 != n2 && n1 != n3 && n1 != n4 && n2 !=n3 && n2 != n4 && n3 !=n4) {
-                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                    if (n1 != n2 | n1 != n3 | n1 != n4 | n2 != n3 | n2 != n4 | n3 != n4) {
+                        System.out.println("Минимальное различие в числе:  " + " " + numb[i]);
+                        break;
+                    }
 
-                    }break;
-
-                }for (numb[i] >= 10000 && numb[i] < 99999 && numb[i] <= -10000 && numb[i] > -99999) {
+                } else if (numb[i] >= 10000 && numb[i] < 99999 | numb[i] <= -10000 && numb[i] > -99999) {
                     int n1 = numb[i] % 10;
                     int n2 = numb[i] / 10 % 10;
                     int n3 = numb[i] / 100 % 10;
                     int n4 = numb[i] / 1000 % 10;
                     int n5 = numb[i] / 10000 % 10;
-                    if (n1 != n2 && n1 != n3 && n1 != n4 && n1 !=n5 && n2 != n3 && n2 !=n4 && n2 != n5 && n3 != n4 && n3 != n5 && n4 !=n5 ) {
-                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
-
+                    if (n1 != n2 | n1 != n3 | n1 != n4 | n1 != n5 | n2 != n3 | n2 != n4 | n2 != n5 | n3 != n4 | n3 != n5 | n4 != n5) {
+                        System.out.println("Минимальное различие в числе:  " + " " + numb[i]);
+                        break;
                     }
-                    break;
+
+
+                }
+            }for (int i = 0; i < numb.length; i++) { //Полная не схожесть
+                if (numb[i] >= 10 && numb[i] < 99 | numb[i] <= -10 && numb[i] > -99) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    if (n1 != n2) {
+                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                        break;
+                    }
+                } else if (numb[i] >= 100 && numb[i] < 100 | numb[i] <= -100 && numb[i] > -999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    if (n1 != n2 && n1 != n3 && n2 != n3) {
+                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                        break;
+                    }
+                } else if (numb[i] >= 1000 && numb[i] < 9999 | numb[i] <= -1000 && numb[i] > -9999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    if (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4) {
+                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                        break;
+                    }
+
+                } else if (numb[i] >= 10000 && numb[i] < 99999 | numb[i] <= -10000 && numb[i] > -99999) {
+                    int n1 = numb[i] % 10;
+                    int n2 = numb[i] / 10 % 10;
+                    int n3 = numb[i] / 100 % 10;
+                    int n4 = numb[i] / 1000 % 10;
+                    int n5 = numb[i] / 10000 % 10;
+                    if (n1 != n2 && n1 != n3 && n1 != n4 && n1 != n5 && n2 != n3 && n2 != n4 && n2 != n5 && n3 != n4 && n3 != n5 && n4 != n5) {
+                        System.out.println("Одинаковых цифр нет в числе: " + " " + numb[i]);
+                        break;
+                    }
+
 
                 }
             }
@@ -140,11 +178,11 @@ public class Numbers {
 
 
             scanner.close();
-        }catch (InputMismatchException err) {
+        } catch (InputMismatchException err) {
             System.out.println("Вы ввели буквы, а нужно цифры");
-        }catch (NegativeArraySizeException err) {
+        } catch (NegativeArraySizeException err) {
             System.out.println("Массив не может иметь отрицательную длинну");
-        }catch (ArrayIndexOutOfBoundsException err) {
+        } catch (ArrayIndexOutOfBoundsException err) {
             System.out.println("Массив не может иметь нулевую длину");
         }
     }
