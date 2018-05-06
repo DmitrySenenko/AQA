@@ -4,6 +4,12 @@ class Box {
     double height;
     double depth;
 
+    Box(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
+    }
+
 
     double volume() {
         return height * width * depth;
@@ -24,13 +30,13 @@ class Box {
             System.out.println("Объем равен: " + vol);*/
 
 
-class BoxDemo3 {
+/*class BoxDemo3 {
     public static void main(String[] args) {
         Box mybox1 = new Box();
         Box mybox2 = new Box();
-        double vol;
+        double vol;*/
 
-        mybox1.width = 10;
+        /*mybox1.width = 10;
         mybox1.height = 20;
         mybox1.depth = 15;
 
@@ -43,7 +49,24 @@ class BoxDemo3 {
         System.out.println("Volume is " + vol);
 
         vol = mybox2.volume();
-        System.out.println("Volume is " + vol);
+        System.out.println("Volume is " + vol);*/
+
+
+   /* }
+}*/
+
+class BoxDemo7 {
+    public static void main(String[] args) {
+        Box mybox1 = new Box(10, 20, 15);
+        Box mybox2 = new Box(3, 6, 9);
+
+        double vol;
+
+        vol = mybox1.volume();
+        System.out.println("volume is " + vol);
+
+        vol = mybox2.volume();
+        System.out.println("volume is " + vol);
     }
 }
 

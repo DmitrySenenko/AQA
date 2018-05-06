@@ -45,8 +45,8 @@
       <file leaf-file-name="Box.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Box.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            <state relative-caret-position="291">
+              <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
               <folding>
                 <element signature="e#89#90#0" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BoxDemo3">
+  <component name="RunManager" selected="Application.BoxDemo7">
     <configuration name="Box$BoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Box$BoxDemo" />
       <module name="AQA" />
@@ -186,8 +186,8 @@
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Lesson_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4" />
+    <configuration name="BoxDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxDemo7" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -233,19 +233,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Lesson_4" />
       <item itemvalue="Application.Box$BoxDemo" />
       <item itemvalue="Application.BoxDemo" />
       <item itemvalue="Application.BoxDemo$BoxDemo3" />
       <item itemvalue="Application.BoxDemo3" />
+      <item itemvalue="Application.BoxDemo7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoxDemo7" />
         <item itemvalue="Application.BoxDemo3" />
         <item itemvalue="Application.BoxDemo$BoxDemo3" />
         <item itemvalue="Application.BoxDemo" />
         <item itemvalue="Application.Box$BoxDemo" />
-        <item itemvalue="Application.Lesson_4" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +264,7 @@
       <workItem from="1525460297068" duration="559000" />
       <workItem from="1525502810794" duration="36000" />
       <workItem from="1525510954032" duration="950000" />
-      <workItem from="1525586601398" duration="2754000" />
+      <workItem from="1525586601398" duration="3566000" />
     </task>
     <task id="LOCAL-00001" summary="note">
       <created>1525454291193</created>
@@ -301,11 +301,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525588827857</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="note">
+      <created>1525589753563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525589753563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="note">
+      <created>1525589946457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525589946457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14372000" />
+    <option name="totallyTimeSpent" value="15184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -321,11 +335,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -615,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        <state relative-caret-position="291">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
           <folding>
             <element signature="e#89#90#0" expanded="true" />
             <element signature="e#112#113#0" expanded="true" />
