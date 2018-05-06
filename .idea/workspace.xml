@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BoxDemo$BoxDemo3">
+  <component name="RunManager" selected="Application.BoxDemo3">
     <configuration name="Box$BoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Box$BoxDemo" />
       <module name="AQA" />
@@ -181,21 +181,15 @@
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="BoxDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoxDemo3" />
+      <module name="AQA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Lesson_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_4" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.task2.Numbers" />
-      <module name="AQA" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -239,19 +233,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Numbers" />
       <item itemvalue="Application.Lesson_4" />
       <item itemvalue="Application.Box$BoxDemo" />
       <item itemvalue="Application.BoxDemo" />
       <item itemvalue="Application.BoxDemo$BoxDemo3" />
+      <item itemvalue="Application.BoxDemo3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoxDemo3" />
         <item itemvalue="Application.BoxDemo$BoxDemo3" />
         <item itemvalue="Application.BoxDemo" />
         <item itemvalue="Application.Box$BoxDemo" />
         <item itemvalue="Application.Lesson_4" />
-        <item itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
   </component>
