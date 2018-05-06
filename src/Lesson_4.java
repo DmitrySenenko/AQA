@@ -19,7 +19,8 @@ public class Lesson_4 {
        /* System.out.println(avg(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
         System.out.println(avg(2, 2, 2, 2, 2, 2, 2, 2, 2));*/
 
-       new Girl("Ira", 23);
-
+       Girl ira = new Girl("Ira", 23);
+        System.out.println(ira);
+        System.out.println(ira.presentGift(new Box(12,12,12)));
     }
 }

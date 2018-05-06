@@ -6,4 +6,18 @@ public class Girl {
         this.name = name;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Girl{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
+    public boolean presentGift(Box gift) {
+        if (gift.volume() > 500)
+            return true;
+        return false;
+    }
 }
