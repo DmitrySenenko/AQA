@@ -20,4 +20,17 @@ public class Girl {
             return true;
         return false;
     }
+
+    public boolean goToRestoran(Box restoran) {
+        if (restoran.volume() > 1000)
+            return true;
+        return false;
+    }
+
+    public String goToRest(String rest) {
+        if ("Mac".equals(rest)) {
+            return "yes";
+        }
+        return "NO";
+    }
 }

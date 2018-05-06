@@ -22,5 +22,13 @@ public class Lesson_4 {
        Girl ira = new Girl("Ira", 23);
         System.out.println(ira);
         System.out.println(ira.presentGift(new Box(12,12,12)));
+        System.out.println(ira.goToRest("Mac"));
+
+        Girl tanya = new Girl("Tanya", 19);
+        System.out.println(tanya);
+        System.out.println(tanya.presentGift(new Box(15,5,12)));
+        System.out.println(tanya.goToRest("Rest"));
+
+
     }
 }
