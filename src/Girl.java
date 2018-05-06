@@ -1,19 +1,9 @@
 public class Girl {
-    String name;
-    int age;
+    private final String name;
+    private final int age;
 
-
-
-    void goToCinema(){
-        System.out.println("go");
-    }
-
-
-    @Override
-    public String toString() {
-        return "Girl{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+    public Girl(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 }
