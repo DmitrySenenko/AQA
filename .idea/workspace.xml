@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f20039-798c-4924-a481-ff0e2b0c310e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Girl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="Lesson_5.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lesson_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,8 +64,14 @@
       <file leaf-file-name="Girl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Girl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,8 +112,8 @@
         <option value="$PROJECT_DIR$/src/com/task2/Numbers.java" />
         <option value="$PROJECT_DIR$/src/Box.java" />
         <option value="$PROJECT_DIR$/src/Lesson_3.java" />
-        <option value="$PROJECT_DIR$/src/Girl.java" />
         <option value="$PROJECT_DIR$/src/Lesson_4.java" />
+        <option value="$PROJECT_DIR$/src/Girl.java" />
         <option value="$PROJECT_DIR$/src/Lesson_5.java" />
       </list>
     </option>
@@ -202,14 +208,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lesson_4">
+  <component name="RunManager" selected="Application.Lesson_5">
     <configuration name="BoxDemo$BoxDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoxDemo$BoxDemo3" />
-      <module name="AQA" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoxDemo" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -225,6 +226,11 @@
     </configuration>
     <configuration name="Lesson_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_4" />
+      <module name="AQA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Lesson_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -270,19 +276,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BoxDemo" />
       <item itemvalue="Application.BoxDemo$BoxDemo3" />
       <item itemvalue="Application.BoxDemo3" />
       <item itemvalue="Application.BoxDemo7" />
       <item itemvalue="Application.Lesson_4" />
+      <item itemvalue="Application.Lesson_5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_5" />
         <item itemvalue="Application.Lesson_4" />
         <item itemvalue="Application.BoxDemo7" />
         <item itemvalue="Application.BoxDemo3" />
         <item itemvalue="Application.BoxDemo$BoxDemo3" />
-        <item itemvalue="Application.BoxDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +308,7 @@
       <workItem from="1525502810794" duration="36000" />
       <workItem from="1525510954032" duration="950000" />
       <workItem from="1525586601398" duration="8345000" />
-      <workItem from="1526115140285" duration="1016000" />
+      <workItem from="1526115140285" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="note">
       <created>1525454291193</created>
@@ -395,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525595196664</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="note">
+      <created>1526116182246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1526116182246</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20979000" />
+    <option name="totallyTimeSpent" value="21254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -505,6 +518,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Girl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/task2/Numbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
@@ -762,10 +774,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>

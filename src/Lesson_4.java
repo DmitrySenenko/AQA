@@ -19,7 +19,7 @@ public class Lesson_4 {
        /* System.out.println(avg(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
         System.out.println(avg(2, 2, 2, 2, 2, 2, 2, 2, 2));*/
 
-        Girl ira = new Girl("Ira", 23);
+        /*Girl ira = new Girl("Ira", 23);
         System.out.println(ira);
         System.out.println(ira.presentGift(new Box(12,12,12)));
         System.out.println(ira.goToRest("Mac"));
@@ -27,7 +27,7 @@ public class Lesson_4 {
         Girl tanya = new Girl("Tanya", 19);
         System.out.println(tanya);
         System.out.println(tanya.presentGift(new Box(15,5,12)));
-        System.out.println(tanya.goToRest("Rest"));
+        System.out.println(tanya.goToRest("Rest"));*/
 
 
     }
