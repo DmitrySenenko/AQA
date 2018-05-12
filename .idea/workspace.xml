@@ -45,14 +45,8 @@
       <file leaf-file-name="Lesson_5.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lesson_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
-              <folding>
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1139">
+              <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -315,7 +309,7 @@
       <workItem from="1525502810794" duration="36000" />
       <workItem from="1525510954032" duration="950000" />
       <workItem from="1525586601398" duration="8345000" />
-      <workItem from="1526115140285" duration="5410000" />
+      <workItem from="1526115140285" duration="5934000" />
     </task>
     <task id="LOCAL-00001" summary="note">
       <created>1525454291193</created>
@@ -429,11 +423,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526119552345</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="note">
+      <created>1526121051707</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1526121051707</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25373000" />
+    <option name="totallyTimeSpent" value="25897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -814,14 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
-          <folding>
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1139">
+          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
         </state>
       </provider>
     </entry>
