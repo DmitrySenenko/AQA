@@ -55,7 +55,7 @@ public class Lesson_5 {
         b /= 2;
     }*/
 
-    int a;
+   /* int a;
 
     Lesson_5(int i){
         a = i;
@@ -64,7 +64,15 @@ public class Lesson_5 {
     Lesson_5 incrByTen(){
         Lesson_5 temp = new Lesson_5(a+10);
         return temp;
-    }
+    }*/
+
+   int fact(int n){
+       int result;
+
+       if (n==1) return 1;
+       result = fact(n-1) * n;
+       return result;
+   }
 
 
 
@@ -98,7 +106,7 @@ public class Lesson_5 {
         ob.meth(ob);
         System.out.println("ob.a and ob.b after call: " + ob.a + " " + ob.b);*/
 
-        Lesson_5 ob1 = new Lesson_5(2);
+        /*Lesson_5 ob1 = new Lesson_5(2);
         Lesson_5 ob2;
 
         ob2 = ob1.incrByTen();
@@ -106,6 +114,12 @@ public class Lesson_5 {
         System.out.println("ob2.a: " + ob2.a);
 
         ob2= ob2.incrByTen();
-        System.out.println("ob2.a after second increase: " + ob2.a);
+        System.out.println("ob2.a after second increase: " + ob2.a);*/
+
+        Lesson_5 f = new Lesson_5();
+
+        System.out.println("Factorial of 3 is " + f.fact(3));
+        System.out.println("Factorial of 4 is " + f.fact(4));
+        System.out.println("Factorial of 5 is " + f.fact(5));
 }
 }
