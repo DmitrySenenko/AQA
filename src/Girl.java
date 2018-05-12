@@ -6,6 +6,9 @@ public class Girl {
         this.name = name;
         this.age = age;
     }
+    public Girl(){
+        this("Ket" , 22);
+    }
 
     public String getName() {
         return name;
@@ -21,5 +24,11 @@ public class Girl {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("Go to Mac");
     }
 }
