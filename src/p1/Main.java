@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        C1 c=new C3();
+        C1 c = new C3();
         c.m();
     }
 }
