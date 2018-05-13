@@ -9,7 +9,7 @@ public class A {
         this.b = b;
     }
 
-    @Override
+    @Override                                  //Если не переопределён, то будет сравнивать ссылки на объект
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
