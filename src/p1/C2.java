@@ -2,7 +2,7 @@ package p1;
 
 public class C2 extends C1{
 
-    protected void m(){
+    protected void m(){     //Динамический полиморфизм
         System.out.println("2");
     }
 }
