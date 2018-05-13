@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         A a = new A(11, 23);
-        System.out.println(a);
+        A b = new A(11, 23);
+        System.out.println(a.getClass().getSimpleName());
+        System.out.println(a.hashCode());
+        System.out.println(b.hashCode());
     }
 }
