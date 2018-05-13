@@ -19,7 +19,7 @@ class Box {
 
 
 /*class BoxDemo {
-        public static void main(String[] args) {
+        public static void Main(String[] args) {
             Box mybox = new Box();
             double vol;
             mybox.width = 10;
@@ -31,7 +31,7 @@ class Box {
 
 
 /*class BoxDemo3 {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         Box mybox1 = new Box();
         Box mybox2 = new Box();
         double vol;*/
