@@ -8,5 +8,9 @@ public class Main {
         System.out.println(a.getClass().getSimpleName());
         System.out.println(a.hashCode());
         System.out.println(b.hashCode());
+        System.out.println("qwery".hashCode());
+        System.out.println("qwery".hashCode());
+        System.out.println(a.equals(b));
+
     }
 }
