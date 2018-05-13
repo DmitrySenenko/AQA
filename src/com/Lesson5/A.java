@@ -1,6 +1,6 @@
 package com.Lesson5;
 
-public class A {
+public class A implements Cloneable{
     int a;
     int b;
 
@@ -33,5 +33,10 @@ public class A {
                 "a=" + a +
                 ", b=" + b +
                 '}';
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
