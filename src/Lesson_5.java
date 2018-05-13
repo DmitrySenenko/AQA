@@ -116,10 +116,15 @@ public class Lesson_5 {
         ob2= ob2.incrByTen();
         System.out.println("ob2.a after second increase: " + ob2.a);*/
 
-        Lesson_5 f = new Lesson_5();
+       /* Lesson_5 f = new Lesson_5();
 
         System.out.println("Factorial of 3 is " + f.fact(3));
         System.out.println("Factorial of 4 is " + f.fact(4));
-        System.out.println("Factorial of 5 is " + f.fact(5));
-}
+        System.out.println("Factorial of 5 is " + f.fact(5));*/
+
+
+        System.out.println(new Aspirant("Ket", 34, "Inheritance"));
+
+
+    }
 }
