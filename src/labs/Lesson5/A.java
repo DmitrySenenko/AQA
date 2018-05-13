@@ -1,4 +1,4 @@
-package com.Lesson5;
+package labs.Lesson5;
 
 public class A implements Cloneable{
     int a;

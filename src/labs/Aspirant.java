@@ -1,3 +1,5 @@
+package labs;
+
 public class Aspirant extends Student{
     String workName;
 

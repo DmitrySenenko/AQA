@@ -1,3 +1,5 @@
+package labs;
+
 public class Lesson_5 {
 
    /* static void m(){                //Статический полиморфизм . Методы перегружены (имеют одно имя)

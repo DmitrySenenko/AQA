@@ -1,6 +1,6 @@
-package p1;
+package labs.p1;
 
-import p2.C3;
+import labs.p2.C3;
 
 public class Main {
 

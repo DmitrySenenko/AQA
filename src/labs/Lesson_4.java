@@ -1,4 +1,4 @@
-
+package labs;
 
 public class Lesson_4 {
     /*static double avg(int... a) {

@@ -1,3 +1,4 @@
+package labs;
 
 class Box {
     double width;

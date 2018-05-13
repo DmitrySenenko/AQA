@@ -1,4 +1,4 @@
-package com.task1;
+package labs.task1;
 
 public class Console {
     public static void main(String[] args) {

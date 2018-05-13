@@ -205,6 +205,12 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AQA\src\com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\AQA\src\com" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
@@ -228,12 +234,12 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Lesson_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4" />
+      <option name="MAIN_CLASS_NAME" value="com.Lesson_4" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Lesson_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_5" />
+      <option name="MAIN_CLASS_NAME" value="com.Lesson_5" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -249,12 +255,12 @@
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p1.Main" />
+      <option name="MAIN_CLASS_NAME" value="labs.p1.Main" />
       <module name="AQA" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p1.*" />
+          <option name="PATTERN" value="labs.p1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,7 +341,7 @@
       <workItem from="1525586601398" duration="8345000" />
       <workItem from="1526115140285" duration="8926000" />
       <workItem from="1526190847334" duration="8275000" />
-      <workItem from="1526217398176" duration="255000" />
+      <workItem from="1526217398176" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="note">
       <created>1525454291193</created>
@@ -554,14 +560,22 @@
       <option name="project" value="LOCAL" />
       <updated>1526217441363</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="note">
+      <created>1526217678101</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1526217678101</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37419000" />
+    <option name="totallyTimeSpent" value="37452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />

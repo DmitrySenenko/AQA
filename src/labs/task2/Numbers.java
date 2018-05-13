@@ -1,4 +1,4 @@
-package com.task2;
+package labs.task2;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;

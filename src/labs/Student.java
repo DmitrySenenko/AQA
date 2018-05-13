@@ -1,3 +1,5 @@
+package labs;
+
 public class Student {
 
     String name;

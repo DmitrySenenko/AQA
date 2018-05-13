@@ -1,4 +1,4 @@
-package p1;
+package labs.p1;
 
 public class C1 {
 
