@@ -1,4 +1,6 @@
-package labs;
+package labs.Lesson5;
+
+import labs.Aspirant;
 
 public class Lesson_5 {
 
