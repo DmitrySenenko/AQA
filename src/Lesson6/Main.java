@@ -26,10 +26,16 @@ public class Main {
         System.out.println(Ball.getCountInstance());
         System.out.println(Ball.count);*/
 
-        System.out.println(A.b);
+        /*System.out.println(A.b);
         A.m1();
         A a = new A();
         a.m1();
-        System.out.println(a.b);
+        System.out.println(a.b);*/
+
+        B.m1();
+        System.out.println(B.b);  //100
+        System.out.println(A.b);  //0
+        B b = new B();
+
     }
 }
