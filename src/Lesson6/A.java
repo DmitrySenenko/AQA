@@ -4,6 +4,12 @@ public class A {
 
     int a;
     static int b;
+    static {     //Статический блок
+        System.out.println("Static block A");
+    }
+    {       //Нестатический блок
+        System.out.println("Not Static block A");
+    }
 
     void m(){
         System.out.println("not static" + b);

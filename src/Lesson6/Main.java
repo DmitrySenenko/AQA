@@ -32,10 +32,13 @@ public class Main {
         a.m1();
         System.out.println(a.b);*/
 
-        B.m1();
-        System.out.println(B.b);  //100
-        System.out.println(A.b);  //0
+        //B.m1();
         B b = new B();
+        A a = new A();
+        A a1 = new A();
+        //System.out.println(B.b);  //100
+        //System.out.println(A.b);  //0
+
 
     }
 }
