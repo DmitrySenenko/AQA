@@ -51,6 +51,10 @@ public class Main {
 
         A a = new A();
         a.m();
-
+        IA a1 = new A();
+        a1.m();
+        IA.m1();
+        IA.s[1]=1000;
+        System.out.println(Arrays.toString(IA.s));
     }
 }

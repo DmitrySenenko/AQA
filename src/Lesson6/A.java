@@ -7,6 +7,11 @@ public class A  implements IA{
 
     }
 
+    @Override
+    public void m2() {
+
+    }
+
     /*int a;
     static int b;
     static {     //Статический блок
