@@ -1,8 +1,13 @@
 package Lesson6;
 
-public class A {
+public class A  implements IA{
+    @Override
+    public void m() {
+        System.out.println("A");
 
-    int a;
+    }
+
+    /*int a;
     static int b;
     static {     //Статический блок
         System.out.println("Static block A");
@@ -16,5 +21,5 @@ public class A {
     }
     static void m1(){
         System.out.println("static");
-    }
+    }*/
 }
