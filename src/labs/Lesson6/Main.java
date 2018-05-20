@@ -58,6 +58,8 @@ public class Main {
 
         a1 = ()-> System.out.println("hi");
         a1.m();
+        a1 = ()-> System.out.println("hi world");
+        a1.m();
 
     }
 }
