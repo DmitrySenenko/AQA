@@ -9,4 +9,7 @@ public interface IA extends IB, IC {
         }
 
         void m2();
+        default void m3() {
+            System.out.println("Hi from interface");
+        }
 }

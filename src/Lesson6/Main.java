@@ -56,5 +56,6 @@ public class Main {
         IA.m1();
         IA.s[1]=1000;
         System.out.println(Arrays.toString(IA.s));
+        a.m3();
     }
 }
