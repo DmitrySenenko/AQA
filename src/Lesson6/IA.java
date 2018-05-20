@@ -12,4 +12,9 @@ public interface IA extends IB, IC {
         default void m3() {
             System.out.println("Hi from interface");
         }
+
+    @Override
+    default void m4() {
+        IC.super.m4();  // Указываем из какого интерфейса мы берём метод
+    }
 }
