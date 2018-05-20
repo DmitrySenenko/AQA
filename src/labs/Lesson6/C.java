@@ -1,4 +1,4 @@
-package Lesson6;
+package labs.Lesson6;
 
 public class C extends A {
     /*@Override

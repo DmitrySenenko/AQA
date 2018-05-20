@@ -1,8 +1,6 @@
-package Lesson6;
+package labs.Lesson6;
 
 import java.util.Arrays;
-
-import Lesson6.Ball;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Lesson6;
+package labs.Lesson6;
 
 public interface IA extends IB, IC {
         int a = 10; //final static
