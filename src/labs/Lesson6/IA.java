@@ -1,14 +1,15 @@
 package labs.Lesson6;
 
+@FunctionalInterface
 public interface IA extends IB, IC {
         int a = 10; //final static
         int [] s= {1,2,3};
 
-        static void m1(){
+        /*static void m1(){
             System.out.println("hi!");
-        }
+        }*/
 
-        void m2();
+        //void m2();
         default void m3() {
             System.out.println("Hi from interface");
         }

@@ -1,5 +1,8 @@
 package labs.Lesson6;
 
+
+@FunctionalInterface
+
 public interface IB {
     void m();
 

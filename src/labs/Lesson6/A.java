@@ -7,10 +7,10 @@ public class A  implements IA{
 
     }
 
-    @Override
+    /*@Override
     public void m2() {
 
-    }
+    }*/
 
     /*int a;
     static int b;

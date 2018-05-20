@@ -1,5 +1,6 @@
 package labs.Lesson6;
 
+@FunctionalInterface
 public interface IC {
     void m();
 

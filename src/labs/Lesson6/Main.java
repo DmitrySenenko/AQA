@@ -47,13 +47,17 @@ public class Main {
             System.out.println(s[i].draw());
         }*/
 
-        A a = new A();
-        a.m();
+        //A a = new A();
+        //a.m();
         IA a1 = new A();
         a1.m();
-        IA.m1();
-        IA.s[1]=1000;
+        //IA.m1();
+        IA.s[1] = 1000;
         System.out.println(Arrays.toString(IA.s));
-        a.m3();
+        //a.m3();
+
+        a1 = ()-> System.out.println("hi");
+        a1.m();
+
     }
 }
