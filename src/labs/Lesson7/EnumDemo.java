@@ -62,11 +62,11 @@ public class EnumDemo {
         String usd = "USD";
 
         Enum currency = Enum.valueOf(labs.Lesson7.Currency.class, usd);
-        currency = currency.valueOf(usd);
+        //currency = currency.valueOf(usd);
 
         System.out.println("String to Enum Example: " + currency);
 
         String INR = "INR";
-        Currency rupee = INR.valueOf();
+       // Currency rupee = INR.valueOf();
     }
 }
