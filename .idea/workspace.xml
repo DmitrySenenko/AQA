@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a0d51a-c1ba-4d22-8b20-d3a117ba3c2d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/EnumDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Lesson7/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson7/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Lesson7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/Lesson7/EnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson7/EnumDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="EnumDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson7/EnumDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="544">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -239,7 +237,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.EnumDemo">
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.Lesson7.EnumDemo" />
+      <module name="AQA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.Lesson7.Main" />
       <module name="AQA" />
@@ -306,9 +315,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.EnumDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -437,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527328888595</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="note">
+      <created>1527331254883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1527331254883</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -466,7 +484,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -838,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson7/EnumDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
