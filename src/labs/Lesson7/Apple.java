@@ -24,5 +24,6 @@ public enum Apple {   //модификатор доступа только priva
 
     }*/
 
-    Jonathan, GoldenDel, RedDel, Winesap, Cortland
+   /* Jonathan, GoldenDel, RedDel, Winesap, Cortland*/
+
 }
