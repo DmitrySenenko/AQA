@@ -57,7 +57,7 @@ public class Main {
         Banks.Account account1=a1.new Account(144, 100);
         account1.show();
             */
-        A a = new A();
+        /*A a = new A();
         a.m();
 
         new A(){
@@ -69,8 +69,10 @@ public class Main {
             void n(){
                 System.out.println("N");
             }
-        }.n();
+        }.n();   //TODO почитать про Solid*/
+
+        Apple a = Apple.C;
+        System.out.println(a.i);
+
     }
-
-
 }

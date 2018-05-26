@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a0d51a-c1ba-4d22-8b20-d3a117ba3c2d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/labs/Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/Banks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/My.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task1/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task1/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task1/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task1/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task1/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task1/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/DZ/task2/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/Lesson7/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Aspirant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson4/Aspirant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson4/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson4/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Lesson5/Lesson_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson5/Lesson_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Lesson_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson4/Lesson_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson4/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/p1/C1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson5/p1/C1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/p1/C2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson5/p1/C2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/p1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson5/p1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/p2/C3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson5/p2/C3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task1/Console.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task1/Name.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task1/Numbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task1/Operations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task1/Password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task1/Sum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/task2/Numbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/Lesson7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson7/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,13 +39,20 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson7/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+            <state relative-caret-position="1258">
+              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson7/Apple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1605#1606#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,15 +67,6 @@
                 <element signature="e#613#614#0" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lesson_4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/labs/Lesson4/Lesson_4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -148,6 +132,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -183,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/labs/Lesson5/p1/C2.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson7/Banks.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson7/A.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson7/Apple.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson7/Main.java" />
       </list>
     </option>
@@ -439,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526804629451</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="note">
+      <created>1527325844094</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527325844094</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -468,7 +461,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25189108" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -492,7 +485,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -500,13 +493,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/labs/Lesson_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson4/Lesson_4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -838,16 +824,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson7/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-          <folding>
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1258">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
         </state>
       </provider>
     </entry>
