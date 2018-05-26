@@ -71,8 +71,8 @@ public class Main {
             }
         }.n();   //TODO почитать про Solid*/
 
-        Apple a = Apple.C;
-        System.out.println(a.i);
+       /* Apple a = Apple.C;
+        System.out.println(a.i);*/
 
     }
 }

@@ -1,7 +1,7 @@
 package labs.Lesson7;
 
 public enum Apple {   //модификатор доступа только private
-    A,B,C("1:00", 60 , "1AM"),D;
+    /*A,B,C("1:00", 60 , "1AM"),D;
 
     Apple(String s, int i, String s1) {
         this.s = s;
@@ -22,5 +22,7 @@ public enum Apple {   //модификатор доступа только priva
 
     Apple() {
 
-    }
+    }*/
+
+    Jonathan, GoldenDel, RedDel, Winesap, Cortland
 }
