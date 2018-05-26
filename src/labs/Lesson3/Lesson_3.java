@@ -1,4 +1,4 @@
-package labs;
+package labs.Lesson3;
 
 import java.util.Arrays;
 
