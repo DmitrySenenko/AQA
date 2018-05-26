@@ -1,4 +1,4 @@
-package labs;
+package labs.Lesson4;
 
 public class Girl {
     private String name;

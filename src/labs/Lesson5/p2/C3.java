@@ -1,6 +1,6 @@
-package labs.p2;
+package labs.Lesson5.p2;
 
-import labs.p1.C2;
+import labs.Lesson5.p1.C2;
 
 public class C3 extends C2 {
 

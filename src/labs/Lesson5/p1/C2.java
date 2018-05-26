@@ -1,4 +1,4 @@
-package labs.p1;
+package labs.Lesson5.p1;
 
 public class C2 extends C1{
 
