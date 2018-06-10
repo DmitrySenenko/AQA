@@ -1,5 +1,6 @@
 package labs.Lesson9;
 
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Formatter;
 import java.util.Random;
@@ -67,7 +68,24 @@ public class Lesson2 {
             System.out.println(e.getMessage());
         }*/
 
-       throw new MyExeption("Hi");
+       //throw new MyExeption("Hi");
+
+        try{
+            try{
+                throw new Exception("a");
+
+            }finally {
+                if (true){
+                    throw new IOException("b");
+                }
+                System.out.println("c");
+            }
+        }catch (IOException ex){
+            System.err.println(ex.getMessage());
+        }catch (Exception ex){
+            System.err.println("d");
+            System.err.println(ex.getMessage());
+        }
 
     }
 }

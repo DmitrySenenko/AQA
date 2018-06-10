@@ -30,11 +30,11 @@
       <file leaf-file-name="Lesson2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1528617846726" expanded="true" signature="1152:1642" ph="{...}" />
+                <marker date="1528617846726" expanded="true" signature="1180:1670" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -481,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528617543024</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="note">
+      <created>1528617850088</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1528617850088</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -869,11 +876,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1528617846726" expanded="true" signature="1152:1642" ph="{...}" />
+            <marker date="1528617846726" expanded="true" signature="1180:1670" ph="{...}" />
           </folding>
         </state>
       </provider>
