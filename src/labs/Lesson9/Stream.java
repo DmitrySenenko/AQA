@@ -98,6 +98,21 @@ public class Stream {
         String sFr=nfFr.format(iGe);
         System.out.println("\nUs " + sUs + "\nFr " + sFr);
 
+        DateFormat df = DateFormat.getDateInstance(DateFormat.MEDIUM,Locale.US);
+        Date d = null;
+        String str1 = "April 9, 2012";
+        try {
+            d = df.parse(str1);
+            System.out.println(d);
+        }catch (ParseException e){
+            System.err.print("Error position: " + e.getErrorOffset());
+        }
+        df = DateFormat.getDateInstance(DateFormat.LONG, new Locale("ru", "RU"));
+        System.out.println(df.format(d));
+        df = DateFormat.getDateInstance(DateFormat.FULL,Locale.GERMAN);
+        System.out.println(df.format(d));
+
+
 
 
     }
