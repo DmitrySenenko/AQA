@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Lesson2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws MyExeption {
        /* String ssss = String.format("sdfdsfsdfsd %d dsfsdfdsfdsf %s",10,"jjhgjh");
         System.out.println((ssss));*/
 
@@ -60,12 +60,14 @@ public class Lesson2 {
         }
         System.out.println("Уже после блока try-catch-catch.");*/
 
-        try {
+       /* try {
             throw  new MyExeption("Привет");
         } catch (MyExeption e) {
             e.gogogo();
             System.out.println(e.getMessage());
-        }
+        }*/
+
+       throw new MyExeption("Hi");
 
     }
 }
