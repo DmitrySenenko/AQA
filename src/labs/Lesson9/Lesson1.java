@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.lang.String;
 
-public class Stream {
+public class Lesson1 {
 
     public static void main(String[] args) {
         //System.out.println("fdfsfsfsfsd45".chars()
@@ -40,7 +40,7 @@ public class Stream {
                 .limit(10)
                 .forEach(System.out::println);
         */
-        /*Stream.generate ()->new Point(random.nextInt(10),random.nextInt(10))
+        /*Lesson1.generate ()->new Point(random.nextInt(10),random.nextInt(10))
                 .limit(5)
                 .forEach(System.out.println);
 */
@@ -59,7 +59,7 @@ public class Stream {
 
         Pattern pattern =
                 Pattern.compile(".*gmail.\\.com");
-        Stream.of("bob@gmail.com", "alice@hotmail.com")
+        Lesson1.of("bob@gmail.com", "alice@hotmail.com")
                 .filter(pattern.asPredicate())
                 .count();*/
        /* System.out.println(Locale.getDefault());
