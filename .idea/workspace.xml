@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a0d51a-c1ba-4d22-8b20-d3a117ba3c2d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson10/GenMethDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/Lesson10/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/Lesson10/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labs/Lesson10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson10/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,8 +72,30 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+            <state relative-caret-position="1207">
+              <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
+              <folding>
+                <element signature="e#1678#1687#0" expanded="true" />
+                <element signature="e#1740#1751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinMax.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/MinMax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/MyClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -167,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/labs/Lesson10/Gen.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson10/Stats.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson10/GenMethDemo.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson10/MinMax.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson10/MyClass.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson10/Main.java" />
       </list>
     </option>
@@ -587,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529144956674</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="note">
+      <created>1529146857363</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1529146857363</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -648,14 +679,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/labs/Lesson5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_6.java" />
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson5/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -985,10 +1008,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/MinMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+        <state relative-caret-position="1207">
+          <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
+          <folding>
+            <element signature="e#1678#1687#0" expanded="true" />
+            <element signature="e#1740#1751#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

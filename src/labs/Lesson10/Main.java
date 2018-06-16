@@ -42,7 +42,7 @@ public class Main {
         double x = strob.average();
         System.out.println("strob average is " + v);*/
 
-        Integer nums[]={1,2,3,4,5};
+        /*Integer nums[]={1,2,3,4,5};
 
         if(isIn(2,nums))
             System.out.println("2 is in nums");
@@ -57,6 +57,19 @@ public class Main {
         if(isIn("two", strs))
             System.out.println("two is in strs");
         if(!isIn("seven",strs))
-            System.out.println("seven is not in strs");
+            System.out.println("seven is not in strs");*/
+
+        Integer inums[] = {3,6,2,8,6};
+        Character chs[] = {'b', 'r' ,'p','w'};
+
+        MyClass<Integer> iob = new MyClass<Integer>(inums);
+        MyClass<Character> cob = new MyClass<Character>(chs);
+
+        System.out.println("Max value in inums: " + iob.max());
+        System.out.println("Min value in inums: " + iob.min());
+
+        System.out.println("Max value in chs: " + cob.max());
+        System.out.println("Min value in chs: " + cob.min());
+
     }
 }
