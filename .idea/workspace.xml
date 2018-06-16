@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a0d51a-c1ba-4d22-8b20-d3a117ba3c2d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/labs/Lesson10/Gen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/labs/Lesson10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +19,10 @@
       <file leaf-file-name="Lesson1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="303">
               <caret line="112" column="40" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lesson2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1528617846726" expanded="true" signature="1180:1670" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -44,13 +32,60 @@
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/MyExeption.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
                 <element signature="e#104#105#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lesson2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1528618636439" expanded="true" signature="1180:1670" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Gen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+              <folding>
+                <element signature="e#68#69#0" expanded="true" />
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="e#349#357#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -109,6 +144,9 @@
         <option value="$PROJECT_DIR$/src/labs/Lesson9/Lesson.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson9/MyExeption.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson10/Lesson1.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson10/Gen.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson10/Main.java" />
       </list>
     </option>
   </component>
@@ -134,7 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,12 +198,19 @@
               <item name="labs" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson9" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AQA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AQA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson10" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lesson2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.Lesson7.EnumDemo" />
       <module name="AQA" />
@@ -221,7 +266,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Lesson2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.Lesson9.Lesson2" />
       <module name="AQA" />
       <option name="PROGRAM_PARAMETERS" value="1 2 3" />
@@ -240,6 +285,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="labs.Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.Lesson10.Main" />
+      <module name="AQA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.Lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,15 +342,16 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Application.Lesson2" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.Lesson1" />
       <item itemvalue="Application.Lesson" />
-      <item itemvalue="Application.Lesson2" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson2" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lesson" />
         <item itemvalue="Application.Lesson1" />
         <item itemvalue="Application.EnumDemo" />
@@ -488,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528617850088</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="note">
+      <created>1528618810626</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1528618810626</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -506,19 +570,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
@@ -530,6 +592,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -549,20 +613,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/labs/Lesson6/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/labs/Lesson6/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="44" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/DZ/task2/Numbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -851,9 +901,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/MyExeption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="303">
           <caret line="112" column="40" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -861,26 +922,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/MyExeption.java">
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="456">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
           <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1528618636439" expanded="true" signature="1180:1670" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java">
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Gen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1528617846726" expanded="true" signature="1180:1670" ph="{...}" />
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#349#357#0" expanded="true" />
           </folding>
         </state>
       </provider>
