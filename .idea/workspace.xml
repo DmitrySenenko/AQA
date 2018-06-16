@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a0d51a-c1ba-4d22-8b20-d3a117ba3c2d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/labs/Lesson10/Stats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labs/Lesson10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labs/Lesson10/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/Lesson10/Stats.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +72,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="40" column="54" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="561">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
-                <element signature="e#540#549#0" expanded="true" />
-                <element signature="e#745#753#0" expanded="true" />
+                <element signature="e#532#541#0" expanded="true" />
+                <element signature="e#721#729#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,11 +85,11 @@
       <file leaf-file-name="Stats.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Stats.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="442">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +160,8 @@
         <option value="$PROJECT_DIR$/src/labs/Lesson9/Lesson2.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson10/Lesson1.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson10/Gen.java" />
-        <option value="$PROJECT_DIR$/src/labs/Lesson10/Stats.java" />
         <option value="$PROJECT_DIR$/src/labs/Lesson10/Main.java" />
+        <option value="$PROJECT_DIR$/src/labs/Lesson10/Stats.java" />
       </list>
     </option>
   </component>
@@ -205,13 +205,6 @@
               <item name="AQA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="labs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AQA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AQA" type="b2602c69:ProjectViewProjectNode" />
@@ -574,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529143046847</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="note">
+      <created>1529144034005</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1529144034005</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -963,22 +963,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="442">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
           <folding>
-            <element signature="e#102#103#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/labs/Lesson10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="40" column="54" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="561">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
-            <element signature="e#540#549#0" expanded="true" />
-            <element signature="e#745#753#0" expanded="true" />
+            <element signature="e#532#541#0" expanded="true" />
+            <element signature="e#721#729#0" expanded="true" />
           </folding>
         </state>
       </provider>

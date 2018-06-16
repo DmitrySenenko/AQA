@@ -29,9 +29,9 @@ public class Main {
         System.out.println("iob avareage is " + v);
 
         Double dnums[] ={1.1,2.2,3.3,4.4,5.5};
-        Stats<Double> dob = new Stats<Double>(dnums);
+        Stats<Double> dOb = new Stats<Double>(dnums);
 
-        double w = dob.average();
+        double w = dOb.average();
         System.out.println("dob avarage is " + w);
 
         /*String stra[] = {"1", "2", "3", "4", "5"};
