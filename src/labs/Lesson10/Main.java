@@ -1,5 +1,7 @@
 package labs.Lesson10;
 
+import java.util.HashSet;
+
 import static labs.Lesson10.GenMethDemo.isIn;
 
 public class Main {
@@ -71,7 +73,7 @@ public class Main {
         System.out.println("Max value in chs: " + cob.max());
         System.out.println("Min value in chs: " + cob.min());*/
 
-        String[] s1={"Katya", "Yana", "Nata", "Tanya"};
+        /*String[] s1={"Katya", "Yana", "Nata", "Tanya"};
         Integer[] s2 ={2,3,4,5,6,7,8,9};
         Girl[] s3 ={new Girl("Zenya", 18) , new Girl("Luda",22), new Girl("Anna", 30)};
         MyClass<Integer> integerMyClass = new MyClass(s2);
@@ -83,8 +85,17 @@ public class Main {
         System.out.println(girlMyClass.max());
         System.out.println(girlMyClass.min());
         System.out.println(integerMyClass.max());
-        System.out.println(integerMyClass.min());
+        System.out.println(integerMyClass.min());*/
 
+        HashSet<String> hs = new HashSet<String>();
 
+        hs.add("B");
+        hs.add("A");
+        hs.add("D");
+        hs.add("E");
+        hs.add("C");
+        hs.add("F");
+
+        System.out.println(hs);
     }
 }
