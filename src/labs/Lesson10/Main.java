@@ -59,7 +59,7 @@ public class Main {
         if(!isIn("seven",strs))
             System.out.println("seven is not in strs");*/
 
-        Integer inums[] = {3,6,2,8,6};
+        /*Integer inums[] = {3,6,2,8,6};
         Character chs[] = {'b', 'r' ,'p','w'};
 
         MyClass<Integer> iob = new MyClass<Integer>(inums);
@@ -69,7 +69,22 @@ public class Main {
         System.out.println("Min value in inums: " + iob.min());
 
         System.out.println("Max value in chs: " + cob.max());
-        System.out.println("Min value in chs: " + cob.min());
+        System.out.println("Min value in chs: " + cob.min());*/
+
+        String[] s1={"Katya", "Yana", "Nata", "Tanya"};
+        Integer[] s2 ={2,3,4,5,6,7,8,9};
+        Girl[] s3 ={new Girl("Zenya", 18) , new Girl("Luda",22), new Girl("Anna", 30)};
+        MyClass<Integer> integerMyClass = new MyClass(s2);
+        MyClass<Girl> girlMyClass = new MyClass(s3);
+        MyClass<String> stringMyClass = new MyClass(s1);
+
+        System.out.println(stringMyClass.max());
+        System.out.println(stringMyClass.min());
+        System.out.println(girlMyClass.max());
+        System.out.println(girlMyClass.min());
+        System.out.println(integerMyClass.max());
+        System.out.println(integerMyClass.min());
+
 
     }
 }

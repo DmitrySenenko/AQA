@@ -1,8 +1,37 @@
 package labs.Lesson10;
 
-class MyClass <T extends Comparable <T>> implements MinMax<T>{
+class MyClass<K extends Comparable<K>> implements MyI<K> {
 
-    T[] vals;
+    K[] array;
+
+    public MyClass(K[] array) {
+        this.array = array;
+    }
+
+    @Override
+    public K min() {
+        K v = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (v.compareTo(array[i]) > 0) {
+                v = array[i];
+            }
+        }
+        return v;
+    }
+
+    @Override
+    public K max() {
+        K v = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (v.compareTo(array[i]) < 0) {
+                v = array[i];
+            }
+        }
+        return v;
+    }
+}
+
+    /*T[] vals;
 
     MyClass(T[] o) {vals = o;}
 
@@ -22,4 +51,6 @@ class MyClass <T extends Comparable <T>> implements MinMax<T>{
         return v;
     }
 
-}
+
+}*/
+
