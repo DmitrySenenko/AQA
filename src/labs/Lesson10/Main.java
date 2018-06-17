@@ -1,6 +1,9 @@
 package labs.Lesson10;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 import static labs.Lesson10.GenMethDemo.isIn;
 
@@ -87,7 +90,7 @@ public class Main {
         System.out.println(integerMyClass.max());
         System.out.println(integerMyClass.min());*/
 
-        HashSet<String> hs = new HashSet<String>();
+       TreeSet<String> hs = new TreeSet<>();
 
         hs.add("B");
         hs.add("A");
@@ -97,5 +100,39 @@ public class Main {
         hs.add("F");
 
         System.out.println(hs);
+
+        hs.forEach(s->System.out.println(s.hashCode()));
+
+        System.out.println();
+
+        for (String x:hs) {
+            System.out.println(x.hashCode());
+        }
+
+
+       /* TreeSet Girl = new TreeSet();
+
+        Girl.add("Katya");
+        Girl.add("Yana");
+        Girl.add("Tanya");
+        Girl.add("Elena");
+        Girl.add("Anna");
+        Girl.add("Marina");
+        Girl.add("Galya");
+        Girl.add("Inna");*/
+
+        //System.out.println(Girl);
+
+        Set<Girl> strings = new TreeSet<>((s1,s2)->s1.name.compareTo(s2.name));
+
+        strings.add(new Girl("Katya",22));
+        strings.add(new Girl("Zanna",21));
+        strings.add(new Girl("Zenya",20));
+        strings.add(new Girl("Nata",23));
+        strings.add(new Girl("Sasha",25));
+        strings.add(new Girl("Nelly",27));
+
+        System.out.println(strings);
+
     }
 }
