@@ -86,6 +86,5 @@ public class Main {
         list2.removeAll(Collections.singleton("One"));
         System.out.println(list2);
 
-
     }
 }
