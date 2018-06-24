@@ -6,6 +6,8 @@ import labs.Lesson10.Girl;
 import java.util.*;
 import java.util.stream.Collectors;
 
+
+
 public class Main {
 
     /*static HashMap<String,String> girlStringHashMap1 = new HashMap<String, String>();
@@ -85,6 +87,11 @@ public class Main {
         System.out.println(list1);
         list2.removeAll(Collections.singleton("One"));
         System.out.println(list2);
+
+        EnumSet<Faculty> set1= EnumSet.range(Faculty.MMF, Faculty.FMO);
+        EnumSet<Faculty> set2 = EnumSet.complementOf(set1);
+        System.out.println(set1);
+        System.out.println(set2);
 
     }
 }
