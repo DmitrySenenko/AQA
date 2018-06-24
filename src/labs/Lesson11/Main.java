@@ -67,13 +67,24 @@ public class Main {
         System.out.println(Collections.disjoint(collections1, collections2));
         System.out.println(Collections.disjoint(collections1, collections3));*/
 
-        List<Integer> list3 = Arrays.asList(2,4,7,10,11,45,50,59,60,66);
+        /*List<Integer> list3 = Arrays.asList(2,4,7,10,11,45,50,59,60,66);
         System.out.println("(1) Index:" + Collections.binarySearch(list3,7));
         System.out.println("(2) Index:" + Collections.binarySearch(list3,9));
 
         List<String> list4 = Arrays.asList("blue", "green", "red");
         System.out.println("(3) Index: " + Collections.binarySearch(list4, "red"));
-        System.out.println("(3) Index: " + Collections.binarySearch(list4, "cyan"));
+        System.out.println("(3) Index: " + Collections.binarySearch(list4, "cyan"));*/
+
+        /*Collection <String> collection = Arrays.asList("red", "cyan", "red");
+        System.out.println(Collections.frequency(collection,"red"));*/
+
+        String init[]={"One", "Two", "Three", "One", "Two", "Three"};
+        List list1= new ArrayList(Arrays.asList(init));
+        List list2= new ArrayList(Arrays.asList(init));
+        list1.remove("One");
+        System.out.println(list1);
+        list2.removeAll(Collections.singleton("One"));
+        System.out.println(list2);
 
 
 
