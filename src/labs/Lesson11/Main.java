@@ -48,13 +48,34 @@ public class Main {
 
         System.out.println("John Doe's new balance" +hm.get("John Doe"));*/
 
-        List<String> list1 = Arrays.asList("red", "green", "blue");
+        /*List<String> list1 = Arrays.asList("red", "green", "blue");
         Collections.sort(list1);
         System.out.println(list1);
         List<String> list2 = Arrays.asList("green", "red","yellow","blue");
         //Collections.sort(list2, Collections.reverseOrder());
-        Collections.shuffle(list1);
+        Collections.shuffle(list2);
         System.out.println(list2);
+
+        List<String> list = Arrays.asList("red", "green", "blue");
+        Collections.fill(list, "black");
+        System.out.println(list);*/
+
+        /*Collection <String> collections1= Arrays.asList("red", "cyan");
+        Collection <String> collections2= Arrays.asList("red", "blue");
+        Collection <String> collections3= Arrays.asList("pink", "tan");
+
+        System.out.println(Collections.disjoint(collections1, collections2));
+        System.out.println(Collections.disjoint(collections1, collections3));*/
+
+        List<Integer> list3 = Arrays.asList(2,4,7,10,11,45,50,59,60,66);
+        System.out.println("(1) Index:" + Collections.binarySearch(list3,7));
+        System.out.println("(2) Index:" + Collections.binarySearch(list3,9));
+
+        List<String> list4 = Arrays.asList("blue", "green", "red");
+        System.out.println("(3) Index: " + Collections.binarySearch(list4, "red"));
+        System.out.println("(3) Index: " + Collections.binarySearch(list4, "cyan"));
+
+
 
 
     }
